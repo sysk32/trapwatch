@@ -4,6 +4,8 @@ A drop-in defense layer that detects and neutralizes prompt injection attacks hi
 
 Built in response to Google DeepMind's ["AI Agent Traps"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438) paper (March 2026), which identifies six categories of adversarial content designed to manipulate AI agents browsing the web.
 
+TUTORIAL HERE: https://dev.to/sysk32/your-ai-agent-is-reading-poisoned-web-pages-heres-how-to-stop-it-4l61
+
 ## The Problem
 
 When AI agents browse the web, they consume raw page content — including hidden elements invisible to humans but parsed by machines. Attackers can embed prompt injections in:
